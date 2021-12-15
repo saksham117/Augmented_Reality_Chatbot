@@ -1,0 +1,32 @@
+/* The error message box */
+  .success-message {
+    padding: 5px;
+    background-color: #3ea832; /* Red */
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    min-height: 10% !important;
+    max-height: 80% !important;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left:5px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
